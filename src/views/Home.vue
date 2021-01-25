@@ -18,7 +18,7 @@ export default {
     }
   },
   mounted() {
-    axios.get('/api/users').then(res => {
+    axios.get('http://47.98.163.242:3100/api/users').then(res => {
       this.users = res.data
     })
   }
