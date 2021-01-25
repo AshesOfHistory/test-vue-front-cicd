@@ -18,7 +18,7 @@ export default {
     }
   },
   mounted() {
-    axios.get('/api/users:3100/api/users').then(res => {
+    axios.get('/api/users').then(res => {
       this.users = res.data
     })
   }
